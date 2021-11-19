@@ -1,0 +1,17 @@
+{
+  "name": "fileSystem",
+  "version": "1.0.0",
+  "description": "nodejs fileSystem",
+  "main": "main.js",
+  "keywords": [
+    "fileSystem"
+  ],
+  "scripts": {
+    "start": "node ./test/test.js",
+    "serve": "node --inspect ./test/test.js"
+  },
+  "author": "chenqj",
+  "license": "UNLICENSED",
+  "dependencies": {
+  }
+}
