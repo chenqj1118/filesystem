@@ -38,5 +38,20 @@ const bokestsHome = process.cwd(),
 | `getHistoryLogFilePath()`  | 返回历史文件路径                     | `getHistoryLogFilePath(options){}`                |
 | `getWinCacheBokeStsPath()` | 返回本地缓存的大json路径(断网时调用) | `getWinCacheBokeStsPath(options){}`               |
 | `getAppPath()`             | 返回应用路径                         | `getAppPath(appCode, options){}`                  |
-| `getSchemaPath()`          | 返回方案路径                         | `getSchemaPath(appCode, schemeCode, options){}`   |
+| `getSchemaPath()`          | 返回方案配置路径                     | `getSchemaPath(appCode, schemeCode, options){}`   |
+| `getLogPath()`             | 操作日志                             |                                                   |
+| `getMvnLogPath()`          | java程序日志                         |                                                   |
+| `getJavaLogPath()`         | mvn日志                              |                                                   |
+| `getJarPath()`             |                                      |                                                   |
+| `getYmlPath()`             | application.yml                      |                                                   |
+| `getRunTimePath()`         |                                      |                                                   |
+| getJdkPath                 |                                      |                                                   |
+| getMvnPath                 |                                      |                                                   |
+| getMvnSettingPath          |                                      |                                                   |
+| getParentPomPath           |                                      |                                                   |
+| getStarterPomPath          |                                      |                                                   |
+| getExtPomPath              |                                      |                                                   |
+| getLogback-springPath      | logback-spring.xml                   |                                                   |
+| getQuartz_jobsPath         | quartz_jobs.xml                      |                                                   |
+|                            |                                      |                                                   |
 
