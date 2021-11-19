@@ -4,8 +4,8 @@ const bokestsHome = process.cwd(),userHome = os.homedir(),tmpDir = os.tmpdir();
 
 const fileSystem = {
   projectPath: '',
-  setProject(path) {
-	this.projectPath = path;
+  setProjectPath(path) {
+	fileSystem.projectPath = path;
   },
   getUserDataPath(options) {
 	  let defaultOpts = {
